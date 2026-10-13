@@ -22,6 +22,7 @@ function SignUpForm() {
         "https://pingup-backend-q5c9.onrender.com/auth/register",
         {
           method: "POST",
+          credentials: "include",
           headers: {
             "Content-Type": "application/json",
           },
